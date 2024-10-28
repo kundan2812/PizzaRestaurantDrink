@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="40c8e8a01fa24dbfa0d81b98e87c1d0c" Name="Diagram1">
+        <EntityTypeShape EntityType="Pro_PizzResturentandDrinkDbModel1.AddressTypeTable" Width="1.5" PointX="3" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pro_PizzResturentandDrinkDbModel1.DiscountTable" Width="1.5" PointX="8.25" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pro_PizzResturentandDrinkDbModel1.GenderTable" Width="1.5" PointX="0.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pro_PizzResturentandDrinkDbModel1.OrderDealDetailTable" Width="1.5" PointX="10.5" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pro_PizzResturentandDrinkDbModel1.OrderItemDetailIDTable" Width="1.5" PointX="10.5" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pro_PizzResturentandDrinkDbModel1.OrderStatusTable" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pro_PizzResturentandDrinkDbModel1.OrderTable" Width="1.5" PointX="5.25" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pro_PizzResturentandDrinkDbModel1.OrderTypeTable" Width="1.5" PointX="3" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pro_PizzResturentandDrinkDbModel1.ReservationStatusTable" Width="1.5" PointX="6" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pro_PizzResturentandDrinkDbModel1.StockDealDetailTable" Width="1.5" PointX="13.5" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pro_PizzResturentandDrinkDbModel1.StockDealTable" Width="1.5" PointX="8.25" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pro_PizzResturentandDrinkDbModel1.StockItemCategoryTable" Width="1.5" PointX="6" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pro_PizzResturentandDrinkDbModel1.StockItemIngredientTable" Width="1.5" PointX="10.5" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pro_PizzResturentandDrinkDbModel1.StockItemTable" Width="1.5" PointX="8.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pro_PizzResturentandDrinkDbModel1.StockMenuCategoryTable" Width="1.5" PointX="8.25" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pro_PizzResturentandDrinkDbModel1.StockMenuitemTable" Width="1.5" PointX="10.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pro_PizzResturentandDrinkDbModel1.TableReservationTable" Width="1.5" PointX="8.25" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pro_PizzResturentandDrinkDbModel1.UserAddressTable" Width="1.5" PointX="5.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pro_PizzResturentandDrinkDbModel1.UserStatusTable" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pro_PizzResturentandDrinkDbModel1.UserTable" Width="1.5" PointX="3" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pro_PizzResturentandDrinkDbModel1.UserTypeTable" Width="1.5" PointX="0.75" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="Pro_PizzResturentandDrinkDbModel1.VisibleStatusTable" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_UserAddressTable_AddressTypeTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_OrderItemDetailIDTable_DiscountTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_UserTable_GenderTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_OrderDealDetailTable_OrderTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_OrderDealDetailTable_StockDealTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_OrderItemDetailIDTable_OrderTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_OrderItemDetailIDTable_StockItemTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_OrderTable_OrderStatusTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_OrderTable_OrderTypeTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_OrderTable_UserAddressTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_OrderTable_UserTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_StockItemTable_OrderTypeTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_TableReservationTable_ReservationStatusTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_StockDealDetailTable_StockDealTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_StockDealDetailTable_StockItemTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_StockDealDetailTable_VisibleStatusTable1" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_StockDealTable_VisibleStatusTable1" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_StockItemCategoryTable_VisibleStatusTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_StockItemTable_StockItemCategoryTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_StockItemIngredientTable_StockItemTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_StockItemTable_VisibleStatusTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_StockMenuitemTable_StockItemTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_StockMenuitemTable_StockMenuCategoryTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_StockMenuitemTable_VisibleStatusTable1" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_TableReservationTable_UserTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_TableReservationTable_UserTable1" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_UserAddressTable_UserTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_UserAddressTable_VisibleStatusTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_UserTable_UserStatusTable" ManuallyRouted="false" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_UserTable_UserTypeTable" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="Pro_PizzResturentandDrinkDbModel1.UserDetailTable" Width="1.5" PointX="5.25" PointY="20.125" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_UserDetailTable_UserTable" />
+        <EntityTypeShape EntityType="Pro_PizzResturentandDrinkDbModel1.UserPasswordRecoveryTable" Width="1.5" PointX="5.25" PointY="24.625" />
+        <AssociationConnector Association="Pro_PizzResturentandDrinkDbModel1.FK_UserPasswordRecoveryTable_UserTable" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
